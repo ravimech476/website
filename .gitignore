@@ -21,3 +21,6 @@
 # OS / editor
 Thumbs.db
 .DS_Store
+
+# Captcha manager admin config (DB creds + admin password hash)
+captcha-manager/admin/config.php
