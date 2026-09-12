@@ -1,0 +1,23 @@
+# ── Secrets & data — NEVER commit ────────────────────────────────
+# Database dumps (contain AWS keys, DB credentials, patient data)
+**/*.sql
+
+# wp-config and every backup variant (DB passwords, AWS keys)
+**/wp-config.php
+**/wp-config-old
+**/wp-config.php-old
+**/wp-config.php-org
+**/wp-config.php.bak
+**/wp-config.php.prod-bak
+
+# Environment files & encryption keys
+**/.env
+**/params/defuse-crypto-key.txt
+
+# Stray / debug
+**/test.php
+**/debug.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
